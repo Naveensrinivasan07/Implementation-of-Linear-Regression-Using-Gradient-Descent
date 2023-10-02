@@ -16,7 +16,7 @@ To write a program to predict the profit of a city using the linear regression m
 
 
 ## Program:
-
+```
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: Naveen s
@@ -95,6 +95,7 @@ print("For population = 35,000, we predict a profit of $"+str(round(predict1,0))
 predict2=predict(np.array([1,7]),theta)*10000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0))) 
 */ 
+```
 
 ## Output:
 ![linear regression using gradient descent](sam.png)
